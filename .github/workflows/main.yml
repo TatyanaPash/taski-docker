@@ -149,7 +149,7 @@ jobs:
           context: ./gateway/
           push: true
           tags: tatyanapash/taski_gateway:latest
-  eploy:
+  deploy:
       runs-on: ubuntu-latest
       needs: 
         # Дождёмся билда всех образов Taski
